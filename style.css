@@ -1,0 +1,43 @@
+body {
+    background-color: #e0f2ff;
+    font-family: Arial, sans-serif;
+}
+
+#title {
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    /* Center the container horizontally */
+}
+
+.regForm,
+.logForm {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 20px 0;
+    /* Add some margin between forms */
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.welcomePanel {
+    text-align: center;
+}
